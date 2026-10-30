@@ -21,7 +21,7 @@ Records come from meeting transcripts, email threads, Notion pages, chat session
 - title: a clear title without a date.
 - summary: two to four plain sentences on what happened or what the record says.
 - people, companies, projects: every real person, organization and named project the record mentions. Use full names. When a name matches an entry in <known_entities>, use exactly that spelling. Do not list generic roles ("the client") as people. Do not invent email addresses.
-- decisions: only decisions that were actually made, not options discussed.
+- decisions: only decisions that were actually made, not options discussed, and only ones a team would want on record: scope, commitments, vendors, priorities, ownership, policy. Leave out implementation details such as library choices, retry settings or file names.
 - tasks: concrete follow-ups with an owner when one is named, and a due date as YYYY-MM-DD only when one is stated.
 - topics: up to five short lowercase tags.
 

@@ -43,11 +43,19 @@ class Report:
 
 def note_name(text: str) -> str:
     text = BAD_CHARS.sub("", text).strip().strip(".")
-    return re.sub(r"\s+", " ", text)[:120] or "Untitled"
+    text = re.sub(r"\s+", " ", text)
+    if len(text) > 120:
+        text = text[:120].rsplit(" ", 1)[0].rstrip(",;") + "…"
+    return text or "Untitled"
 
 
 def slug(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
+def tag(text: str) -> str:
+    """Obsidian tags cannot contain spaces or most punctuation."""
+    return re.sub(r"[^\w/-]+", "-", text.strip().lower()).strip("-")
 
 
 def link(name: str | None) -> str | None:
@@ -223,6 +231,12 @@ class Pipeline:
 
     # -- run -----------------------------------------------------------------
     def run(self, records: list[Record], cursors: dict[str, str | None]) -> Report:
+        if not self.dry_run:
+            # Fail before any API call is paid for, not after.
+            self.state.path.parent.mkdir(parents=True, exist_ok=True)
+            probe = self.state.path.parent / ".write-test"
+            probe.write_text("")
+            probe.unlink()
         report = Report(fetched=len(records))
         bodies: dict[str, Record] = {}
         for r in records:
@@ -243,6 +257,9 @@ class Pipeline:
                 report.failed.append(f"{r.id}: {exc}")
                 continue
             report.analyzed += 1
+            if analysis.kind == Kind.decision:
+                # The record is the decision; don't also extract it as a sub-decision.
+                analysis.decisions = []
             rec = self._record_entry(r, analysis, prev, h)
             self.index.forget(r.id)
             self.index.add(r.id, rec, analysis)
@@ -306,7 +323,7 @@ class Pipeline:
         return {
             "title": rec["title"], "kind": rec["kind"], "date": rec["date"], "summary": rec["summary"],
             "source": rec["source"], "url": rec["url"],
-            "tags": sorted({rec["kind"].replace("_", "-"), *rec["topics"]}),
+            "tags": sorted({rec["kind"].replace("_", "-"), *(tag(t) for t in rec["topics"])} - {""}),
             "people_links": [link(p) for p in rec["people"]],
             "company_links": [link(c) for c in rec["companies"]],
             "project_links": [link(p) for p in rec["projects"]],

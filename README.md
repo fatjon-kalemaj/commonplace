@@ -308,6 +308,8 @@ trying the pipeline on real data without sending anything.
 
 ## Limitations
 
+- Decisions are matched by title only, so the same decision worded two ways
+  in two records becomes two notes.
 - Entity resolution is by email, exact name and listed aliases. Two spellings
   of a name without a shared email or alias become two notes; add an alias.
 - Completing an action item in a note doesn't sync back to the source, and

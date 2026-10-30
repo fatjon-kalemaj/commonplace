@@ -98,3 +98,9 @@ def test_state_file_lives_in_vault(config, vault):
     run(config)
     state = json.loads((vault / ".commonplace/state.json").read_text())
     assert state["version"] == 1 and len(state["records"]) == 21
+
+
+def test_tags_are_valid_obsidian_tags():
+    from commonplace.pipeline.run import tag
+    assert tag("Commercial Real Estate") == "commercial-real-estate"
+    assert tag("SOC 2 (Type 1)") == "soc-2-type-1"

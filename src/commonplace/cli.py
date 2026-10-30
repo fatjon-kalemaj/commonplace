@@ -37,7 +37,8 @@ def cmd_demo(args: argparse.Namespace) -> int:
 
     vault = Path(args.vault or DEFAULT_DEMO_VAULT).expanduser()
     config = demo_config(vault)
-    print(f"Building the offline demo vault at {config.vault}")
+    mode = f"with {config.model}" if args.online else "offline"
+    print(f"Building the demo vault ({mode}) at {config.vault}")
     if args.online:
         analyzer = ClaudeAnalyzer(config.model, config.effort)
     else:

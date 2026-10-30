@@ -66,7 +66,7 @@ class PersonRef(BaseModel):
 
 
 class DecisionItem(BaseModel):
-    title: str = Field(description="Short statement of what was decided.")
+    title: str = Field(description="Short statement of what was decided, under 80 characters.")
     rationale: str | None = None
     owner: str | None = Field(default=None, description="Person accountable, full name.")
 
