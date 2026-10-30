@@ -1,0 +1,91 @@
+{
+  "object": "list",
+  "results": [
+    {
+      "object": "block",
+      "id": "169c291a-e02d-5e9b-959a-aa7b2ee694ac",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Extracted fields, citations and reviewer corrections for Underwriting Copilot are stored in Postgres, not in the document store.",
+            "text": {
+              "content": "Extracted fields, citations and reviewer corrections for Underwriting Copilot are stored in Postgres, not in the document store."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "8bef4b0a-7d65-5f90-99b3-587659f874f7",
+      "type": "heading_3",
+      "has_children": false,
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Why",
+            "text": {
+              "content": "Why"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "1415b336-ee00-57f4-9c72-d0ea012ae54a",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Reviewer corrections need transactions and an audit trail",
+            "text": {
+              "content": "Reviewer corrections need transactions and an audit trail"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "28c3d6fc-57a3-56c3-aa97-da86991e38ca",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "SOC 2 Readiness is simpler with one system of record",
+            "text": {
+              "content": "SOC 2 Readiness is simpler with one system of record"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "42bb582f-49a6-5414-ae40-e402d79917b3",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Owner: Dev Raman. Revisit if we pass 10 million fields.",
+            "text": {
+              "content": "Owner: Dev Raman. Revisit if we pass 10 million fields."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "has_more": false
+}

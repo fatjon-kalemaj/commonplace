@@ -1,0 +1,56 @@
+{
+  "title": "Copperline kickoff",
+  "date": "2026-09-08T14:00:00Z",
+  "duration": 48,
+  "participants": [
+    "maya@tallgrass.example",
+    "lena@tallgrass.example",
+    "rob.castellano@copperline.example",
+    "jen.albright@copperline.example"
+  ],
+  "sentences": [
+    {
+      "speaker_name": "Maya",
+      "text": "Thanks for making time. The goal today is to agree the scope of the Underwriting Copilot pilot."
+    },
+    {
+      "speaker_name": "Rob",
+      "text": "Our analysts spend about two days per small business file pulling numbers out of tax returns and bank statements. We want that under half a day."
+    },
+    {
+      "speaker_name": "Jen",
+      "text": "Credit risk needs every extracted figure to point back to the page it came from. Without that the committee will not accept it."
+    },
+    {
+      "speaker_name": "Lena",
+      "text": "That matches how we built it. Every field carries a citation to the source page."
+    },
+    {
+      "speaker_name": "Rob",
+      "text": "Which loan types do you want to start with?"
+    },
+    {
+      "speaker_name": "Lena",
+      "text": "SBA files are the most uniform, so the error rate will be easiest to measure."
+    },
+    {
+      "speaker_name": "Lena",
+      "text": "Decision: the pilot starts with SBA 7(a) loan files only, commercial real estate later."
+    },
+    {
+      "speaker_name": "Jen",
+      "text": "I can pull a sample of forty anonymized files. We strip borrower names before anything leaves our system."
+    },
+    {
+      "speaker_name": "Maya",
+      "text": "Good. Sam will stand up the Data Room Ingest pipeline on our side so the files land in a separate tenant."
+    },
+    {
+      "speaker_name": "Rob",
+      "text": "Let's review results in five weeks."
+    }
+  ],
+  "summary": {
+    "action_items": "- [ ] Jen to share 40 anonymized SBA loan files by 2026-09-15\n- [ ] Sam to set up the Data Room Ingest tenant for Copperline by 2026-09-12\n- [ ] Lena to draft the pilot success metrics by 2026-09-11"
+  }
+}

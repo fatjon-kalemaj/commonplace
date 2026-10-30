@@ -1,0 +1,4 @@
+SOC 2 scoping notes
+Type 1 first, then Type 2 after a three-month observation window. Scope is the production environment for Underwriting Copilot and Covenant Monitor. Out of scope for now: the internal analytics database.
+Policies to write: access control, change management, incident response, vendor management. Ostrander Data goes on the vendor list.
+Auditor shortlist is three firms. I'll send it to Maya and Dev this week.

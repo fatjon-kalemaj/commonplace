@@ -1,0 +1,110 @@
+{
+  "object": "list",
+  "results": [
+    {
+      "object": "block",
+      "id": "717c301a-2307-560f-a208-f03933b5a971",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Welcome to Tallgrass Labs. Read this in your first week.",
+            "text": {
+              "content": "Welcome to Tallgrass Labs. Read this in your first week."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "d0f35052-0ee7-54ae-9a21-225d9cbc7647",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Week one",
+            "text": {
+              "content": "Week one"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "5654ee34-59f2-5297-a2c7-ca9d7a4fd10d",
+      "type": "to_do",
+      "has_children": false,
+      "to_do": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Get access to the Underwriting Copilot and Covenant Monitor repos",
+            "text": {
+              "content": "Get access to the Underwriting Copilot and Covenant Monitor repos"
+            }
+          }
+        ],
+        "checked": false
+      }
+    },
+    {
+      "object": "block",
+      "id": "ee8b6c69-d92f-5f6d-a2d6-ac82c32b1b5c",
+      "type": "to_do",
+      "has_children": false,
+      "to_do": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Read the SOC 2 policies once Priya Nair publishes them",
+            "text": {
+              "content": "Read the SOC 2 policies once Priya Nair publishes them"
+            }
+          }
+        ],
+        "checked": false
+      }
+    },
+    {
+      "object": "block",
+      "id": "950d0c2b-518a-59de-a5e2-7e904eeede69",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "How we work",
+            "text": {
+              "content": "How we work"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "3bbc9723-dfb1-5682-9959-9af0f6467b44",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Every client gets its own Data Room Ingest tenant. Never copy client files to laptops.",
+            "text": {
+              "content": "Every client gets its own Data Room Ingest tenant. Never copy client files to laptops."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "has_more": false
+}

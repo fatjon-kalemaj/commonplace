@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+
+# Never commit vaults, sync state or real records
+.obsidian/
+.commonplace/
+*vault*/
+records/
+exports/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+commonplace.toml
+config.toml
+
+.DS_Store

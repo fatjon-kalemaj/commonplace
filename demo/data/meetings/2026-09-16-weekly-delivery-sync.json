@@ -1,0 +1,40 @@
+{
+  "title": "Weekly delivery sync",
+  "date": "2026-09-16T15:30:00Z",
+  "duration": 31,
+  "participants": [
+    "lena@tallgrass.example",
+    "dev@tallgrass.example",
+    "sam@tallgrass.example",
+    "priya@tallgrass.example"
+  ],
+  "sentences": [
+    {
+      "speaker_name": "Lena",
+      "text": "Copperline files arrived yesterday. Sam, how is ingest looking?"
+    },
+    {
+      "speaker_name": "Sam",
+      "text": "Thirty-eight of forty parsed cleanly. Two are scanned faxes and need OCR tuning."
+    },
+    {
+      "speaker_name": "Dev",
+      "text": "For Covenant Monitor we still need a feed of covenant terms. Building our own scraper is weeks of work."
+    },
+    {
+      "speaker_name": "Dev",
+      "text": "Decision: we license covenant data from Ostrander Data instead of building a scraper."
+    },
+    {
+      "speaker_name": "Priya",
+      "text": "Harbor & Vine will ask about SOC 2 the moment we get serious. I'd like to start evidence collection now."
+    },
+    {
+      "speaker_name": "Lena",
+      "text": "Agreed. Let's treat SOC 2 Readiness as its own project with a weekly check-in."
+    }
+  ],
+  "summary": {
+    "action_items": "- [ ] Priya to start SOC 2 evidence collection by 2026-10-01\n- [ ] Sam to build an evaluation harness for extraction accuracy by 2026-09-25\n- [ ] Dev to get pricing from Ostrander Data by 2026-09-24"
+  }
+}

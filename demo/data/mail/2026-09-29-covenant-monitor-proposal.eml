@@ -1,0 +1,27 @@
+Subject: Re: Proposal: Covenant Monitor for Harbor & Vine
+From: Theo Marchetti <theo@harborvine.example>
+To: Maya Okafor <maya@tallgrass.example>
+Cc: Aisha Bello <aisha@harborvine.example>
+Date: Wed, 30 Sep 2026 09:05:00 +0000
+Message-ID: <e5e93011-1ecb-526f-8384-40bc953c4b53@demo.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Maya,
+
+Thanks for the proposal. Alerts-first is the right call. Aisha will be the da=
+y-to-day owner on our side.
+
+Two questions before we sign: can the alert thresholds be set per covenant, a=
+nd when do you expect the SOC 2 Type 1 report?
+
+Theo
+
+On Sep 29, 2026, Maya Okafor wrote:
+> Theo, Aisha, attached is the proposal for Covenant Monitor. Phase one is em=
+ail alerts when a
+> portfolio company comes within a set margin of any covenant, built on the O=
+strander Data feed.
+> Phase two adds the portfolio dashboard. Fixed fee for phase one, eight week=
+s.

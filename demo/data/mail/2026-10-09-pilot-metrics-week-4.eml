@@ -1,0 +1,24 @@
+Subject: Pilot metrics for week 4
+From: Sam Whitlock <sam@tallgrass.example>
+To: Lena Fischer <lena@tallgrass.example>,
+ Rob Castellano <rob.castellano@copperline.example>
+Cc: Jen Albright <jen.albright@copperline.example>
+Date: Fri, 09 Oct 2026 17:00:00 +0000
+Message-ID: <a9b045d3-7611-549a-8253-2bf7db5723e4@demo.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Lena, Rob,
+
+Week 4 numbers for the Underwriting Copilot pilot:
+
+- Files processed: 40 of 40
+- Field accuracy against Jen's checked set: 96.8%
+- Median analyst review time per file: 41 minutes, down from about two days
+- Fields without a page citation: 0
+
+The two fax files now parse after the OCR change. Full table in the pilot fol=
+der.
+
+Sam

@@ -1,0 +1,40 @@
+{
+  "title": "Copperline pilot review",
+  "date": "2026-10-14T14:00:00Z",
+  "duration": 55,
+  "participants": [
+    "lena@tallgrass.example",
+    "sam@tallgrass.example",
+    "rob.castellano@copperline.example",
+    "jen.albright@copperline.example"
+  ],
+  "sentences": [
+    {
+      "speaker_name": "Lena",
+      "text": "Over five weeks the copilot processed all forty SBA files."
+    },
+    {
+      "speaker_name": "Sam",
+      "text": "Field-level accuracy was 96.8 percent against Jen's hand-checked set, and every field had a page citation."
+    },
+    {
+      "speaker_name": "Jen",
+      "text": "The citations are what made the review fast. My team checked a file in about forty minutes."
+    },
+    {
+      "speaker_name": "Rob",
+      "text": "That is the number I needed. I want to try commercial real estate next."
+    },
+    {
+      "speaker_name": "Rob",
+      "text": "Decision: extend the Underwriting Copilot pilot to commercial real estate files in November."
+    },
+    {
+      "speaker_name": "Lena",
+      "text": "We'll need rent rolls and operating statements. Different layout, so expect a week of tuning."
+    }
+  ],
+  "summary": {
+    "action_items": "- [ ] Jen to send 20 sample CRE files by 2026-10-28\n- [ ] Sam to add rent roll parsing to the Underwriting Copilot by 2026-11-07\n- [ ] Lena to send the pilot results summary to Rob by 2026-10-17"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "object": "list",
+  "results": [
+    {
+      "object": "block",
+      "id": "70ba45c0-3a80-5339-ad67-dc4ea2885269",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Watches portfolio company covenants and alerts before a breach. Prospect: Harbor & Vine Partners.",
+            "text": {
+              "content": "Watches portfolio company covenants and alerts before a breach. Prospect: Harbor & Vine Partners."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "6a373392-2d13-52e2-bfc8-a45ec152befc",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Plan",
+            "text": {
+              "content": "Plan"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "89b468dd-19bf-5648-ac5b-93002724cf75",
+      "type": "numbered_list_item",
+      "has_children": false,
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Phase one: email alerts on covenant headroom, built on the Ostrander Data feed",
+            "text": {
+              "content": "Phase one: email alerts on covenant headroom, built on the Ostrander Data feed"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "243da2d6-8231-527b-bbef-85987808c4aa",
+      "type": "numbered_list_item",
+      "has_children": false,
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Phase two: portfolio dashboard",
+            "text": {
+              "content": "Phase two: portfolio dashboard"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "e5fcd7c3-1c52-5068-a5e2-9f13037504d8",
+      "type": "callout",
+      "has_children": false,
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Thresholds must be configurable per covenant (asked by Theo Marchetti).",
+            "text": {
+              "content": "Thresholds must be configurable per covenant (asked by Theo Marchetti)."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "has_more": false
+}

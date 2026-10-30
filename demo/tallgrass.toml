@@ -1,0 +1,104 @@
+# Gazetteer for the synthetic demo company. Every name, company, domain and
+# number in the demo is invented. Domains use the reserved .example TLD.
+
+[[people]]
+name = "Maya Okafor"
+email = "maya@tallgrass.example"
+company = "Tallgrass Labs"
+role = "CEO"
+aliases = ["Maya"]
+
+[[people]]
+name = "Dev Raman"
+email = "dev@tallgrass.example"
+company = "Tallgrass Labs"
+role = "CTO"
+aliases = ["Dev"]
+
+[[people]]
+name = "Lena Fischer"
+email = "lena@tallgrass.example"
+company = "Tallgrass Labs"
+role = "Head of Delivery"
+aliases = ["Lena"]
+
+[[people]]
+name = "Sam Whitlock"
+email = "sam@tallgrass.example"
+company = "Tallgrass Labs"
+role = "ML Engineer"
+aliases = ["Sam"]
+
+[[people]]
+name = "Priya Nair"
+email = "priya@tallgrass.example"
+company = "Tallgrass Labs"
+role = "Operations Lead"
+aliases = ["Priya"]
+
+[[people]]
+name = "Rob Castellano"
+email = "rob.castellano@copperline.example"
+company = "Copperline Credit"
+role = "COO"
+aliases = ["Rob"]
+
+[[people]]
+name = "Jen Albright"
+email = "jen.albright@copperline.example"
+company = "Copperline Credit"
+role = "Credit Risk Lead"
+aliases = ["Jen"]
+
+[[people]]
+name = "Theo Marchetti"
+email = "theo@harborvine.example"
+company = "Harbor & Vine Partners"
+role = "Partner"
+aliases = ["Theo"]
+
+[[people]]
+name = "Aisha Bello"
+email = "aisha@harborvine.example"
+company = "Harbor & Vine Partners"
+role = "VP Portfolio Operations"
+aliases = ["Aisha"]
+
+[[people]]
+name = "Kurt Lindqvist"
+email = "kurt@ostrander.example"
+company = "Ostrander Data"
+role = "Account Executive"
+aliases = ["Kurt"]
+
+[[companies]]
+name = "Tallgrass Labs"
+aliases = ["Tallgrass", "tallgrass.example"]
+
+[[companies]]
+name = "Copperline Credit"
+aliases = ["Copperline", "copperline.example"]
+
+[[companies]]
+name = "Harbor & Vine Partners"
+aliases = ["Harbor & Vine", "harborvine.example"]
+
+[[companies]]
+name = "Ostrander Data"
+aliases = ["Ostrander", "ostrander.example"]
+
+[[projects]]
+name = "Underwriting Copilot"
+aliases = ["UW Copilot"]
+
+[[projects]]
+name = "Covenant Monitor"
+aliases = []
+
+[[projects]]
+name = "Data Room Ingest"
+aliases = ["ingest pipeline"]
+
+[[projects]]
+name = "SOC 2 Readiness"
+aliases = ["SOC 2"]

@@ -1,0 +1,44 @@
+# Copy to ~/.config/commonplace/config.toml and edit.
+# Never put secrets in this file. Tokens come from the environment or the OS keychain.
+
+# Where notes are written. Must be outside this repo and outside any git checkout
+# (set allow_git_vault = true if you version your vault on purpose).
+vault = "~/Vaults/Company"
+
+model = "claude-opus-5-5"
+effort = "medium"          # low | medium | high
+use_fallbacks = true       # retry on another model if a safety classifier declines
+max_record_chars = 400000  # larger records are skipped and reported, never truncated
+
+[redaction]
+# off   : send and write text as-is
+# api   : redact before sending to Claude; the vault keeps the original text
+# vault : redact before sending and before writing
+mode = "api"
+kinds = ["email", "phone", "ssn", "card", "iban"]   # also available: "money"
+custom = []                                         # extra regexes, e.g. ["Project Falcon"]
+
+# Optional: canonical names so Claude spells people and companies consistently.
+# known_entities = "known.toml"
+
+[connectors.claude_code]
+enabled = true
+path = "~/.claude/projects"
+exclude_cwd = ["*/personal/*"]
+include_tool_output = false
+
+[connectors.meeting_exports]
+enabled = false
+path = "~/Documents/Meeting exports"
+
+[connectors.notes]
+type = "folder"
+enabled = false
+path = "~/Documents/Notes"
+include = ["**/*.md", "**/*.txt", "**/*.eml"]
+
+[connectors.notion]
+enabled = false
+
+[connectors.gmail]
+enabled = false   # stub, see docs/connectors/google-workspace.md

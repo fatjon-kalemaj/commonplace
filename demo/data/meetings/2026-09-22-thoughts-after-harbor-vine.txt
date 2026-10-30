@@ -1,0 +1,4 @@
+Thoughts after the Harbor & Vine call
+Theo and Aisha are a better fit than I expected. They do not want a dashboard, they want an alert in their inbox when a company drifts toward a covenant. That is a smaller build than Covenant Monitor as scoped. I think we ship alerts first and the dashboard later.
+SOC 2 came up again. Second prospect in a month. Priya is right that we need to start now.
+Ask Dev whether the Ostrander feed covers the lenders Harbor & Vine's companies borrow from.

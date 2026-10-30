@@ -1,0 +1,178 @@
+{
+  "object": "list",
+  "results": [
+    {
+      "object": "block",
+      "id": "37a68ac2-99e6-5f45-ae5c-417a7889af17",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Extracts figures from loan files and cites the source page for every field. First client: Copperline Credit.",
+            "text": {
+              "content": "Extracts figures from loan files and cites the source page for every field. First client: Copperline Credit."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "634557a5-886e-5e60-bc20-2af1a7800fff",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Status",
+            "text": {
+              "content": "Status"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "e149069f-ae21-5358-9ac8-897597d3df59",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "SBA pilot complete at 96.8% field accuracy. Commercial real estate extension starts in November.",
+            "text": {
+              "content": "SBA pilot complete at 96.8% field accuracy. Commercial real estate extension starts in November."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "eb8704d2-41db-5bf4-8096-cf95c7c56f6d",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Components",
+            "text": {
+              "content": "Components"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "45866236-b11f-583b-8261-359900863c4f",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Data Room Ingest: per-client tenant, OCR, document classification",
+            "text": {
+              "content": "Data Room Ingest: per-client tenant, OCR, document classification"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "7ec818b0-6fe8-5354-9be9-4e96ba912059",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Extraction: Claude with structured outputs, page citations",
+            "text": {
+              "content": "Extraction: Claude with structured outputs, page citations"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "7edf1840-7241-550c-af84-8cff95264304",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Review UI for credit analysts",
+            "text": {
+              "content": "Review UI for credit analysts"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "5d797422-8f53-52ef-bda5-df26cc9be675",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Open work",
+            "text": {
+              "content": "Open work"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "2d7c4302-fc81-5667-8a2d-3964f8bb4d2f",
+      "type": "to_do",
+      "has_children": false,
+      "to_do": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Rent roll parser (owner: Sam Whitlock)",
+            "text": {
+              "content": "Rent roll parser (owner: Sam Whitlock)"
+            }
+          }
+        ],
+        "checked": false
+      }
+    },
+    {
+      "object": "block",
+      "id": "3f99e545-dad9-505e-9209-ddc7ef472e34",
+      "type": "to_do",
+      "has_children": false,
+      "to_do": {
+        "rich_text": [
+          {
+            "type": "text",
+            "plain_text": "Evaluation harness",
+            "text": {
+              "content": "Evaluation harness"
+            }
+          }
+        ],
+        "checked": true
+      }
+    }
+  ],
+  "has_more": false
+}
